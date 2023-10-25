@@ -1,0 +1,190 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fundo-precin-bacana.png);
+}
+
+/* Cabeçalho Foda */
+
+.cabecalho{
+    background-color: #B080E8;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.titulos{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulos:hover {
+    color: #5a334c;
+}
+
+/* Barra de Pesquisa */
+
+.barra_pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.caixa_pesquisa{
+    width: 33%;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 33%;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-image: url('lupa.png');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+}
+
+.logo {
+    height: 100px;
+    margin: auto;
+    margin-left: 10px;
+    display: block;
+}
+
+/* Login */
+
+.login{
+    height: 75px;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+.login-text{
+    margin-left: 1%;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+/* Catalogo */
+
+.catalogo-text{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 35px;
+}
+
+.linha-catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo{
+    align-items: center;
+    text-align: center;
+    width: 24%;
+    height: auto;
+    transition: 0.3s;
+    margin: 2px;
+}
+
+.catalogo:hover{
+    transform: scale(1.1);
+}
+
+/* Login 2 */
+
+.login-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 8%;
+    margin-left: 8%;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.fim-pag {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dialog-login{
+    border-radius: 10px;
+    background-color: rgb(214, 209, 203);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dialog-login-text{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:4%;
+}
+
+.btn-login{
+    font-size: 15px;
+    height: 10%;
+    width: 14%;
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+/* Fim da Página */
+
+.linha-de-divisao {
+    border: none;
+    border-top: 3px solid #5a334c;
+    margin: 5% 0;
+}
+
+.fim-pag {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.campo-cada{
+    width: 50%;
+    text-align: center;
+}
+
+.campos-em-nm {
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Creditos */
+
+    .text-credits{
+        font-size: 12px;
+        color: darkslategray;
+        text-align: center;
+        margin-top: 5%;
+        font-style: italic;
+    }

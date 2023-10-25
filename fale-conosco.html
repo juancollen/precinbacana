@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <link rel="stylesheet" href="fale-conosco.css">
+        <link rel=" icon" href="logo-nova.png">
+        <title> FALE CONOSCO </title>
+    </head>
+    <body>
+
+        <!-- Cabeçalho -->
+
+        <header>
+        <div class="cabecalho">
+            <a href="index.html" class="titulos"> PRECIN BACANA </a>
+            <a href="promocoes.html" class="titulos"> PROMOÇÕES </a>
+            <a href="cupons.html" class="titulos"> CUPONS </a>
+            <a href="fale-conosco.html" class="titulos"> FALE CONOSCO </a>
+
+        </div>
+        </header>
+
+        <!-- Barra de Pesquisa -->
+
+        <div class="barra_pesquisa">
+            <a href="index.html"><img class="logo" src="Precin.png"></a>
+            <input class="caixa_pesquisa" type="text" id="brr_pesq" placeholder="Pesquisar">
+
+        <!-- Login -->
+
+        <a href="#fim-da-pagina"><img class="login" src="login.png"></a>
+        <a class="login-text" href="#fim-da-pagina">FAÇA LOGIN </a>
+        </div>
+
+        <br><br><br>
+
+        <!-- Cadastros -->
+
+        <div class="linha-sobre">
+            <div class="div-cinq">
+            <p><u><b> Sobre </b></u><br><br>
+                <i>Nossa empresa pega promoção e mostra um compromisso inabalável em fornecer aos nossos clientes as melhores ofertas e oportunidades. Com uma dedicação incansável à excelência e um profundo entendimento das necessidades de nossos clientes, estamos constantemente empenhados em destacar as promoções mais vantajosas e relevantes do mercado.</i></p>
+            </div>
+
+            <div class="div-cinq-2">
+
+        <p class="div-text-cinq"><img src="logo-gmail.png" class="redes-sociais">bacanaprecin@gmail.com <br></p>
+
+        <p class="div-text-cinq"><a href="https://www.instagram.com/precinbacana/" target="widow"><img src="logo-insta.png" class="redes-sociais"></a>@precinbacana<br></p>
+
+        <p class="div-text-cinq"><a href="https://wa.link/7v9rxh" target="widow"><img src="logo-zap.png" class="redes-sociais"></a>+55 31 9268-1351<br></p>
+            </div>
+        </div>
+
+        <!-- Fim da Página -->
+
+        <a name="fim-da-pagina"></a>
+
+            <hr class="linha-de-divisao">
+
+            <div class="fim-pag">
+                <p class="login-title" id="abrir-criar" name="abrir-criar">CRIAR CONTA</p>
+                <p class="login-title" id="abrir-login" name="abrir-login">JÁ TENHO CONTA</p>
+            </div>
+            
+            <dialog id="dialog-criar" name="dialog-criar" class="dialog-login">
+                <p class="dialog-login-text">Criar Conta</p>
+            <form name="frm_post-criar" id="frm_post-criar" method="POST">
+                <input id="frm_login" name="frm_login" type="hidden" value="">
+                <label for="caixa-email">Email: </label>
+                <input type="text" name="caixa-email" id="caixa-email" class="campos-em-nm" size="30" placeholder="Digite aqui...">
+                <br><br>
+                <label for="caixa-senha">Senha: </label>
+                <input type="text" name="caixa-senha" id="caixa-senha" class="campos-em-nm" size="30" placeholder="Digite aqui...">
+            </form> <br>
+
+            <button id="fechar-criar" name="fechar-criar" class="btn-login">Cancelar</button>
+            <button id="button_login" name="button_login" class="btn-login">Enviar</button>
+        </dialog>
+            
+            <dialog id="dialog-login" name="dialog-login" class="dialog-login"> <br><br>
+                <p class="dialog-login-text">Entrar na Conta</p>
+            <form name="frm_post-login" id="frm_post-login" method="POST">
+                <label for="caixa-email-login">Email: </label>
+                <input type="text" name="caixa-email-login" id="caixa-email-login" class="campos-em-nm" size="30" placeholder="Digite aqui...">
+                <br><br>
+                <label for="caixa-senha-login">Senha: </label>
+                <input type="text" name="caixa-senha-login" id="caixa-senha-login" class="campos-em-nm" size="30" placeholder="Digite aqui...">
+            </form> <br>
+
+            <button id="fechar-login" name="fechar-login" class="btn-login">Cancelar</button>
+            <button id="button_login-entrar" name="button_login-entrar" class="btn-login">Enviar</button>
+                
+        </dialog>
+
+                <!-- Creditos -->
+        
+                <p class="text-credits"> Feito por Juan Collen </p>
+ 
+
+                <script src="script.js"></script>
+</body>
+</html>     
